@@ -1,84 +1,324 @@
 const Data = [
   {
     id: "1",
-    title: "Poha",
-    category: "Breakfast",
-    price: "$1",
-    img: "https://c.ndtvimg.com/2021-08/loudr2go_aloo-poha_625x300_05_August_21.jpg?im=FeatureCrop,algorithm=dnn,width=620,height=350",
-    desc: " Poha. Light, filling and easy to make, poha is one famous breakfast that is eaten almost everywhere in the country. And the best part is- it can be made in a number of ways. Kanda poha, soya poha, Indori poha, Nagpur Tari Poha are a few examples",
+    title: "CCURVE2",
+    category: "NECKLACE",
+    input:0,
+    motif:0,
+    accent:0
   },
   {
     id: "2",
-    title: "Upma",
-    category: "Breakfast",
-    price: "$1",
-    img: "https://c.ndtvimg.com/2021-04/37hi8sl_rava-upma_625x300_17_April_21.jpg?im=FeatureCrop,algorithm=dnn,width=620,height=350",
-    desc: " A quintessential South Indian Breakfast! Made with protein-packed urad dal and semolina followed by crunchy veggies and curd, this recipe makes for a hearty morning meal. With some grated coconut on top, it gives a beautiful south-Indian flavour.",
+    title: "CCURVE",
+    category: "NECKLACE",
+    input:0,
+    motif:0,
+    accent:0
+ 
   },
   {
     id: "3",
-    title: "Cheela",
-    category: "Breakfast",
-    price: "$1",
-    img: "https://c.ndtvimg.com/2019-05/1afu8vt8_weight-loss-friendly-breakfast-paneer-besan-chilla_625x300_25_May_19.jpg?im=FaceCrop,algorithm=dnn,width=620,height=350",
-    desc: "A staple across Indian households, moong dal is widely used in a number of Indian delicacies. One such delicacy is moong dal cheela. You can also add paneer to this recipe to amp up the nutritional value and make it, even more, protein-dense",
+    title: "CCURVE3",
+    category: "NECKLACE",
+    input:0,
+    motif:0,
+    accent:0
   },
   {
     id: "4",
-    title: "Channa Kulcha",
-    category: "Lunch",
-    price: "$1",
-    img: "https://i.ndtvimg.com/i/2015-04/chana-kulcha_625x350_41429707001.jpg",
-    desc: "A classic dish that never goes out of style. The quintessential chana kulcha  needs only a few ingredients - cumin powder, ginger, coriander powder, carom powder and some mango powder, which is what gives the chana it's sour and tangy taste.",
+    title: "CCIRCLEBRC",
+    category: "BRACELET",
+    input:0,
+    motif:0,
+    accent:0
+   
   },
-  {
+
+   {
     id: "5",
-    title: "Egg Curry",
-    category: "Lunch",
-    price: "$1",
-    img: "https://i.ndtvimg.com/i/2017-11/goan-egg-curry_620x350_41511515276.jpg",
-    desc: "Eggs are a versatile food that can be cooked for any meal of the day. From breakfast to dinner, it can be a go-to food. Here is a mildly-spiced egg curry made with garlic, onions, a whole lot of kasuri methi, fresh cream, yogurt and fresh coriander.",
+    title: "CODSK01BR",
+    category: "BRACELET",
+    input:0,
+    motif:0,
+    accent:0
+  
   },
   {
     id: "6",
-    title: "Paneer Aachari",
-    category: "Lunch",
-    price: "$1",
-    img: "https://i.ndtvimg.com/i/2015-04/paneer_625x350_61429707960.jpg",
-    desc: "Don't get intimidated by the list of ingredients because not only are already in your kitchen cabinet, but also because all they'll need is 20 minutes of your time. Chunks of cottage cheese cooked in some exciting spices, yogurt and a pinch of sugar.",
+    title: "CODSK01BR",
+    category: "BRACELET",
+    input:0,
+    motif:0,
+    accent:0
+
   },
   {
     id: "7",
-    title: "Fish Fry",
-    category: "Dinner",
-    price: "$1",
-    img: "https://i.ndtvimg.com/i/2015-06/indian-dinner_625x350_41434360207.jpg",
-    desc: "Get your daily dose of perfect protein. Pieces of surmai fish marinated in garlic, cumin, fennel, curry leaves and tomatoes are pan-fried in refined oil and served hot. This fish fry recipe has a host of delectable spices used for marination giving it a unique touch.",
+    title: "EMS001",
+    category: "EARRING",
+    input:0,
+    motif:0,
+    accent:0
   },
   {
     id: "8",
-    title: "Dum Alloo",
-    category: "Dinner",
-    price: "$1",
-    img: "https://i.ndtvimg.com/i/2015-06/indian-dinner_625x350_51434362664.jpg",
-    desc: "Your family will thank you for this absolutely fantastic bowl of dum aloo cooked Lakhnawi style. Take some potatoes, crumbled paneer, kasuri methi, butter, onions and some ghee.",
+    title: "EMS003",
+    category: "EARRING",
+    input:0,
+    motif:0,
+    accent:0
   },
   {
     id: "9",
-    title: "Malai Kofta",
-    category: "Dinner",
-    price: "$1",
-    img: "https://i.ndtvimg.com/i/2017-10/makhmali-kofte_620x350_51508918483.jpg",
-    desc: "A rich gravy made of khus khus, coconut and milk that tastes best with koftas made from khoya. This velvety and creamy recipe will leave you licking your fingers. Makhmali kofte can be your go-to dish for dinner parties as this is quite different from other kofta recipes and extremely delicious.",
+    title: "EMS005",
+    category: "EARRING",
+    input:0,
+    motif:0,
+    accent:0
+   
   },
   {
-    id: "10",
-    title: "Malai Kofta",
-    category: "Snaks",
-    price: "$1",
-    img: "https://i.ndtvimg.com/i/2017-10/makhmali-kofte_620x350_51508918483.jpg",
-    desc: "A rich gravy made of khus khus, coconut and milk that tastes best with koftas made from khoya. This velvety and creamy recipe will leave you licking your fingers. Makhmali kofte can be your go-to dish for dinner parties as this is quite different from other kofta recipes and extremely delicious.",
+    id: "400",
+    title: "CODSK01",
+    category: "PENDANT",
+    input:0,
+    motif:0,
+    accent:0
+
   },
+  {
+    id: "401",
+    title: "CODSK02",
+    category: "PENDANT",
+    input:0,
+    motif:0,
+    accent:0
+ 
+  },
+  {
+    id: "402",
+    title: "CODSK03",
+    category: "PENDANT",
+    input:0,
+    motif:0,
+    accent:0
+  },
+  {
+    id: "403",
+    title: "CODSK04",
+    category: "PENDANT",
+    input:0,
+    motif:0,
+    accent:0
+  },
+  {
+    id: "404",
+    title: "CODSK05",
+    category: "PENDANT",
+    input:0,
+    motif:0,
+    accent:0
+  },
+  {
+    id: "405",
+    title: "CODSK06",
+    category: "PENDANT",
+    input:0,
+    motif:0,
+    accent:0
+  },
+  {
+    id: "406",
+    title: "CODSK07",
+    category: "PENDANT",
+    input:0,
+    motif:0,
+    accent:0
+  },
+  {
+    id: "407",
+    title: "CODSK08",
+    category: "PENDANT",
+    input:0,
+    motif:0,
+    accent:0
+  },
+  {
+    id: "408",
+    title: "CODSK09",
+    category: "PENDANT",
+    input:0,
+    motif:0,
+    accent:0
+  },
+  {
+    id: "409",
+    title: "CODSK10",
+    category: "PENDANT",
+    input:0,
+    motif:0,
+    accent:0
+  },
+  {
+    id: "410",
+    title: "CODSK11",
+    category: "PENDANT",
+    input:0,
+    motif:0,
+    accent:0
+  },
+  {
+    id: "411",
+    title: "CODSK12",
+    category: "PENDANT",
+    input:0,
+    motif:0,
+    accent:0
+  },
+  {
+    id: "412",
+    title: "CODSK13",
+    category: "PENDANT",
+    input:0,
+    motif:0,
+    accent:0
+  },
+  {
+    id: "413",
+    title: "CODSK14",
+    category: "PENDANT",
+    input:0,
+    motif:0,
+    accent:0
+  },
+  {
+    id: "414",
+    title: "CODSK15",
+    category: "PENDANT",
+    input:0,
+    motif:0,
+    accent:0
+  },
+  {
+    id: "415",
+    title: "CODSK16",
+    category: "PENDANT",
+    input:0,
+    motif:0,
+    accent:0
+  },
+  {
+    id: "416",
+    title: "CODSK17",
+    category: "PENDANT",
+    input:0,
+    motif:0,
+    accent:0
+  },
+  {
+    id: "417",
+    title: "CODSK18",
+    category: "PENDANT",
+    input:0,
+    motif:0,
+    accent:0
+  },
+  {
+    id: "418",
+    title: "CODSK19",
+    category: "PENDANT",
+    input:0,
+    motif:0,
+    accent:0
+  },
+  {
+    id: "419",
+    title: "CODSK20",
+    category: "PENDANT",
+    input:0,
+    motif:0,
+    accent:0
+  },
+  {
+    id: "420",
+    title: "CODSK21",
+    category: "PENDANT",
+    input:0,
+    motif:0,
+    accent:0
+  },
+  {
+    id: "421",
+    title: "HTAG",
+    category: "PENDANT",
+    input:0,
+    motif:0,
+    accent:0
+  },
+  {
+    id: "422",
+    title: "LCIRCLE",
+    category: "PENDANT",
+    input:0,
+    motif:0,
+    accent:0
+  },
+  {
+    id: "423",
+    title: "MCC001",
+    category: "PENDANT",
+    input:0,
+    motif:0,
+    accent:0
+  },
+  {
+    id: "424",
+    title: "MCC002",
+    category: "PENDANT",
+    input:0,
+    motif:0,
+    accent:0
+  },
+  {
+    id: "500",
+    title: "MS001",
+    category: "CHARM",
+    input:0,
+    motif:0,
+    accent:0
+  },
+  {
+    id: "501",
+    title: "MS002",
+    category: "CHARM",
+    input:0,
+    motif:0,
+    accent:0
+  },
+  {
+    id: "502",
+    title: "MS003",
+    category: "CHARM",
+    input:0,
+    motif:0,
+    accent:0
+  },
+  {
+    id: "503",
+    title: "MS004",
+    category: "CHARM",
+    input:0,
+    motif:0,
+    accent:0
+  },
+  {
+    id: "504",
+    title: "MS005",
+    category: "CHARM",
+    input:0,
+    motif:0,
+    accent:0  },
+
 ];
 
 export default Data;

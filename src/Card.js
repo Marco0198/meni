@@ -1,27 +1,38 @@
 import React from "react";
-
+import { motion } from "framer-motion/dist/framer-motion";
 const Card = ({ item }) => {
+  const url = "https://microshare.azureedge.net/microstorage/img/";
+
   return (
     <>
-      <div className="container-fluid">
-        <div className="row justify-content-center">
+      <div className="container ml-5 mr-5 mt-5">
+        <div className="row ml-5 justify-content-center  ">
           {item.map((Val) => {
             return (
-              <div
-                className="col-md-4 col-sm-6 card my-3 py-3 border-0"
+              <motion.div
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                viewport={{ once: false }}
+                animate={{ x: 10, y: 20 }}
+                transition={{
+                  x: { type: "spring", stiffness: 100 },
+                  default: { duration: 1 },
+                }}
+                className="col-sm-3 card  border-0 "
                 key={Val.id}
               >
-                <div className="card-img-top text-center">
-                  <img src={Val.img} alt={Val.title} className="photo w-75" />
+                <div
+                  className="card-img-top text-center h-75 w-100 "
+                  style={{ background: "#e6f5f9" }}
+                >
+                  <img
+                    src={`${url}${Val.category}/${Val.title}.png`}
+                    alt={Val.title}
+                    className="photo w-100 border-0 "
+                  />
                 </div>
-                <div className="card-body">
-                  <div className="card-title fw-bold fs-4">
-                    {Val.title} &nbsp;&nbsp;&nbsp;&nbsp;--&nbsp;&nbsp;
-                    {Val.price}
-                  </div>
-                  <div className="card-text">{Val.desc}</div>
-                </div>
-              </div>
+                <div className=" card-title-center  py-3 ">{Val.title}</div>
+              </motion.div>
             );
           })}
         </div>
